@@ -36,7 +36,7 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({ children
     tag: '',
   });
 
-  // Fetch properties from the API route
+  // Fetch properties from the API route npm run build
   useEffect(() => {
     const fetchProperties = async () => {
       try {
